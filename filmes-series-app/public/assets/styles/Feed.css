@@ -1,0 +1,140 @@
+/* Estilo geral */
+.social-feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../images/background_login.jpg");
+  background-size:auto;
+  background-repeat: repeat;  
+}
+
+/* Novo post */
+.new-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;  
+  margin: 0rem 20rem 0rem 20rem;
+  min-width: 80%;
+}
+
+.inputs-container {
+  display: flex;  
+  padding-top: 2rem;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.3rem;
+}
+
+.input-movie-name {  
+  padding: 0.5rem;  
+  border-radius: 0.5rem;
+  border: none;  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+}
+
+.input-description {
+  padding: 0.5rem;  
+  border: none;
+  height: 3rem;  
+  border-radius: 0.5rem;  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+}
+
+.new-post .user-info {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  gap: 1.5rem;
+}
+
+.new-post .user-info img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;  
+}
+
+.new-post input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+.button-container-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-default {
+  padding: 0.5rem 1rem;   
+  border-radius: 0.5rem;
+  border: none;
+  margin-top: 1rem;
+  width: 50%;
+  background-color: #0D0E12;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;  
+}
+
+.button-default:hover {
+  transform: scale(1.05);
+  background-color: #1B1C23;
+}
+
+/* Post */
+
+.post-container {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: white;  
+  margin: 0rem 20rem 0rem 20rem;
+  min-width: 80%;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  width: 100%; 
+  border-radius: 0.5rem;  
+  border: 0.1rem solid rgba(0, 0, 0, 0.137);
+}
+
+.post img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.post-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 0.1rem solid rgba(0, 0, 0, 0.116);
+  padding-left: 1rem;
+}
+
+.post-header h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.post-header p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.post p {
+  margin: 8px 0;
+  font-size: 16px;
+}

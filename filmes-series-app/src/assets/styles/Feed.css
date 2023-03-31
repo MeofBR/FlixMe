@@ -1,0 +1,228 @@
+/* Estilo geral */
+.social-feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../images/background_login.jpg");
+  background-size:auto;
+  background-repeat: repeat;  
+}
+
+/* Novo post */
+.new-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;  
+  margin: 0rem 20rem 0rem 20rem;
+  min-width: 80%;
+}
+
+.inputs-container {
+  display: flex;  
+  padding-top: 2rem;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.input-movie-name {  
+  padding: 0.5rem;  
+  border-radius: 0.5rem;
+  height: 2rem;
+  border: none;  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+}
+
+.input-description {
+  padding: 0.5rem;  
+  border: none;
+  height: 5rem;  
+  border-radius: 0.5rem;  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+}
+
+.new-post .user-info {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  gap: 1.5rem;
+}
+
+.new-post .user-info img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;  
+}
+
+.new-post input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+.button-container-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-default {
+  padding: 0.5rem 1rem;   
+  border-radius: 0.5rem;
+  border: none;
+  margin-top: 1rem;
+  width: 50%;
+  background-color: #0D0E12;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;  
+}
+.button-delete {
+  padding: 0.5rem 1rem;   
+  border-radius: 0.5rem;
+  border: none; 
+  background-color: #0D0E12;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;  
+}
+
+
+.button-default:hover {
+  transform: scale(1.05);
+  background-color: red;
+}
+.button-delete:hover {
+  transform: scale(1.05);
+  background-color: red;
+}
+
+
+.post-container {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: rgba(255, 255, 255, 0.877);  
+  margin: 0rem 20rem 0rem 20rem;
+  min-width: 80%;
+}
+
+.post-footer {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0.5rem 0 0rem 0;
+  margin-top: 1rem;
+  border-top: 0.1rem solid rgba(0, 0, 0, 0.151);  
+}
+
+.button-like, .button-dislike, .button-follow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  background-color: transparent;  
+  border: none;
+  color: #1b1c2388;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  font-size: 0.6rem;
+} 
+
+.button-like:hover, .button-dislike:hover, .button-follow:hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  font-size: 0.6rem;
+  color: rgb(253, 2, 2);
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;  
+}
+
+.button-like-active, .button-dislike-active, .button-follow-active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  font-size: 0.6rem;
+  color: red;
+  transform: scale(1.1);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;  
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  width: 100%; 
+  border-radius: 0.5rem;  
+  border: 0.1rem solid rgba(0, 0, 0, 0.137);
+}
+
+.post:hover {
+  cursor: pointer;
+  background-color: rgb(206, 206, 206);
+  transition: all 0.5s ease-in-out;  
+}
+
+.post img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.post-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 0.1rem solid rgba(0, 0, 0, 0.116);
+  padding-left: 1rem;
+}
+
+.post-header h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.post-header p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.post p {
+  
+  font-size: 16px;
+}
+
+.index-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-delete {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 0rem 2rem 0rem 2rem;
+  background-color: rgba(255, 255, 255, 0.877);  
+  margin: 0rem 20rem 0rem 20rem;
+  min-width: 80%;
+}
