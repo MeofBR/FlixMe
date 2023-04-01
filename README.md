@@ -7,9 +7,8 @@ Rede social para amantes do cinema!
 ![Click to see the project](https://raw.githubusercontent.com/MeofBR/FlixMe/master/preview_feed.jpg)
 
 ### Click no link abaixo para visualizar o projeto
-https://www.youtube.com/watch?v=cAPaLguhQvQ
 
-https://www.youtube.com/watch?v=q8yr2D2KAVE
+https://youtu.be/-nmn2K2Jcio
 
 ### 📋 Pré Requisitos
 
